@@ -1,0 +1,40 @@
+html,
+body,
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.text-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 99vh;
+}
+
+.hero {
+    background-image: url(images/keyboard.jpeg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: silver;
+    background-attachment: fixed;
+}
+
+.info {
+    background-image: url("images/team.jpg");
+}
+
+.about-us {
+    flex-direction: row;
+}
+
+.school {
+    height: 100%;
+    width: 100%;
+}
