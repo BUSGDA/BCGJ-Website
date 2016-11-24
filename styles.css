@@ -16,40 +16,106 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    height: 100vh;
 }
 
 .hero {
     background-image: url(images/keyboard.jpeg);
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: silver;
+    background-color: #cdcdcd;
     background-attachment: fixed;
+    height: 100vh;
 }
 
 .info {
     background-image: url("images/team.jpg");
+    background-blend-mode: overlay;
+    background-color: #9c9c93;
+    height: 100vh;
+}
+
+.about-header {
+    width: 100%;
+    text-align: center;
+    border-bottom: #ccc 1px solid;
+    margin-bottom: 15px;
+    font-size: 28px;
+    padding: 0 0 20px 0;
 }
 
 .club {
     height: 100%;
     width: 100%;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 15px 0;
 }
 
 .club-logo {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100%;
-    width: 100%;
+    padding: 25%;
+    width: 50%;
+    border: transparent 1px solid;
+    border-radius: 50%;
 }
 
 .agda .club-logo {
     background-image: url(images/logo-transparent.png);
 }
 
-@media (min-width: 769px) {
+.sfu .club-logo {
+    background-image: url(images/sfu.png);
+    border-color: #ccc;
+}
+
+.bcit .club-logo {
+    background-image: url(images/bcit.png);
+    background-size: 102%;
+}
+
+.club-text {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.agda .club-text {
+    padding-bottom: 16px;
+}
+
+.club-text span {
+    font-size: 12px;
+}
+
+@media screen and (min-width: 769px) {
     .about-us {
         flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    .club {
+        width: 32%;
+        flex-direction: column;
+        padding: 15px 5px;
+    }
+
+    .club-logo {
+        width: auto;
+        max-width: 250px;
+    }
+
+    .club-text {
+        width: 100%;
+        padding: 15px 0;
+        position: relative;
+    }
+
+    .club-text span {
+        font-size: 20px;
+        position: absolute;
+        top: -10px;
     }
 }
