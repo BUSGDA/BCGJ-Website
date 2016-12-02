@@ -99,6 +99,7 @@ body {
 
 .directions-map iframe {
     max-width: 100vw;
+    pointer-events: none;
 }
 
 .bring {
