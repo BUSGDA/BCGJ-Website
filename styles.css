@@ -18,17 +18,91 @@ body {
     padding: 20px 0;
 }
 
-.top-menu {
-    text-align: end;
-    background-color: #003366;
-    padding: 10px;
+.mobile-top-menu-icon {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    border: #fff 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #003366;
 }
 
-.top-menu a {
+.menu-bar {
+    width: 70%;
+    height: 40%;
+    border: white 4px solid;
+    border-style: solid none;
+}
+
+.mobile-top-menu-icon span {
+    color: #fff;
+    font-size: 50px;
+}
+
+.top-menu {
+    display: none;
+}
+
+.mobile-top-menu {
+    display: none;
+    background-color: #003366;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity ease 1s;
+}
+
+.mobile-top-menu.open {
+    display: block;
+    opacity: 1;
+}
+
+.mobile-top-menu a {
     color: #fff;
     text-decoration: none;
-    margin: 10px;
     cursor: pointer;
+    padding: 0 30px;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.mobile-top-menu a:hover {
+    background-color: #005599;
+}
+
+.mobile-top-menu .mobile-menu-top-options {
+    display: flex;
+    height: 20%;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-top-menu a.home {
+    height: 100%;
+    width: 50%;
+    padding-left: 0;
+}
+
+.mobile-top-menu a.close-menu-icon {
+    height: 100%;
+    width: 50%;
+    justify-content: flex-start;
+    padding-right: 0;
+}
+
+.mobile-top-menu .close-menu-icon span {
+    margin-right: 10px;
 }
 
 .hero {
@@ -72,14 +146,40 @@ body {
     background-color: #003366;
     color: #fff;
     height: 100vh;
+    text-align: center;
 }
 
-.schedule {
-    height: 100vh;
+.faq {
+    min-height: 100vh;
 }
 
-.schedule-content {
+.faq-content {
     flex-grow: 2;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+}
+
+.faq-item {
+    padding-bottom: 25px;
+}
+
+.faq-item-title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.faq-item-content {
+    text-align: center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.faq-item-content a {
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
 }
 
 .directions {
@@ -173,6 +273,45 @@ body {
 }
 
 @media screen and (min-width: 769px) {
+    .mobile-top-menu,
+    .mobile-top-menu-icon {
+        display: none;
+    }
+
+    .top-menu {
+        text-align: end;
+        background-color: #003366;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+
+    .top-menu a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0;
+        cursor: pointer;
+        padding: 10px;
+        display: block;
+    }
+
+    .top-menu a:hover {
+        background-color: #005599;
+    }
+
+    .top-menu-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .faq-item-content {
+        padding: 0 30px;
+    }
+
     .directions-content {
         width: 100%;
         display: flex;
