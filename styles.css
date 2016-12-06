@@ -130,6 +130,17 @@ body {
     margin: 20px 0;
 }
 
+.hero-picture {
+    background-image: url("images/bcgamejam-hz.png");
+    width: 90%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
 .subtitle a {
     color: #fff;
 }
@@ -306,6 +317,11 @@ body {
     .top-menu-right {
         display: flex;
         justify-content: center;
+    }
+
+    .hero-picture {
+        max-height: 250px;
+        width: 100%;
     }
 
     .faq-item-content {
