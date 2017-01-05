@@ -8,6 +8,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    background-image: url(images/backgrounds/background-mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-shadow: 0 0 3px rgb(0,0,1);
 }
 
 .text-align {
@@ -29,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #003366;
+    background: #3f3f3f;
 }
 
 .menu-bar {
@@ -40,7 +45,6 @@ body {
 }
 
 .mobile-top-menu-icon span {
-    color: #fff;
     font-size: 50px;
 }
 
@@ -50,7 +54,7 @@ body {
 
 .mobile-top-menu {
     display: none;
-    background-color: #003366;
+    background-color: #3f3f3f;
     height: 100vh;
     width: 100vw;
     position: fixed;
@@ -66,7 +70,6 @@ body {
 }
 
 .mobile-top-menu a {
-    color: #fff;
     text-decoration: none;
     cursor: pointer;
     padding: 0 30px;
@@ -76,10 +79,11 @@ body {
     justify-content: center;
     font-size: 30px;
     border-bottom: #fff solid 1px;
+    color: #fff;
 }
 
 .mobile-top-menu a:hover {
-    background-color: #005599;
+    background-color: #ccc;
 }
 
 .mobile-top-menu a.close-menu-icon {
@@ -93,16 +97,12 @@ body {
 }
 
 .hero {
-    background-image: url(images/backgrounds/banner3.jpg);
-    background-size: cover;
-    background-attachment: fixed;
     height: 100vh;
 }
 
 .hero-text {
     text-align: center;
     width: 100%;
-    color: #fff;
     padding: 20px 0;
 }
 
@@ -128,10 +128,6 @@ body {
     max-height: 100vh;
 }
 
-.subtitle a {
-    color: #fff;
-}
-
 .header {
     width: 100%;
     text-align: center;
@@ -140,9 +136,20 @@ body {
     padding: 0 0 20px 0;
 }
 
+section:nth-child(3n-2) {
+    border-top: #41c19d solid 2px;
+}
+
+section:nth-child(3n-1) {
+    border-top: #fcfa29 solid 2px;
+}
+
+section:nth-child(3n) {
+    border-top: #fe2e36 solid 2px;
+}
+
 .info {
-    background-color: #003366;
-    color: #fff;
+    background-color: #3f3f3f;
     height: 100vh;
     text-align: center;
 }
@@ -176,14 +183,14 @@ body {
 
 .faq-item-content a {
     text-decoration: none;
-    color: #003366;
+    color: #aaa;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .directions {
     padding: 20px 0 0 0;
-    background-color: #003366;
-    color: #fff;
+    background-color: #3f3f3f;
 }
 
 .directions .header {
@@ -221,8 +228,7 @@ body {
 }
 
 .about-us {
-    background-color: #003366;
-    color: #fff;
+    background-color: #3f3f3f;
     padding: 20px 20px;
 }
 
@@ -278,7 +284,7 @@ body {
 
     .top-menu {
         text-align: end;
-        background-color: #003366;
+        background-color: #3f3f3f;
         padding: 0 10px;
         display: flex;
         justify-content: space-between;
@@ -289,7 +295,6 @@ body {
     }
 
     .top-menu a {
-        color: #fff;
         text-decoration: none;
         margin: 0;
         cursor: pointer;
