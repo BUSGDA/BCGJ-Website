@@ -276,6 +276,14 @@ section:nth-child(3n) {
     font-size: 12px;
 }
 
+/* sponsorship.html */
+h3.subtitle a {
+    color: #aaa;
+    text-decoration: none;
+    font-weight: 800;
+}
+/* sponsorship.html end */
+
 @media screen and (min-width: 769px) {
     body {
         background-image: url(images/backgrounds/background-desktop.jpg);
