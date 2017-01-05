@@ -70,35 +70,22 @@ body {
     text-decoration: none;
     cursor: pointer;
     padding: 0 30px;
-    height: 20%;
+    height: 16%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
+    font-size: 30px;
+    border-bottom: #fff solid 1px;
 }
 
 .mobile-top-menu a:hover {
     background-color: #005599;
 }
 
-.mobile-top-menu .mobile-menu-top-options {
-    display: flex;
-    height: 20%;
-    padding: 0;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.mobile-top-menu a.home {
-    height: 100%;
-    width: 50%;
-    padding-left: 0;
-}
-
 .mobile-top-menu a.close-menu-icon {
-    height: 100%;
-    width: 50%;
-    justify-content: flex-start;
-    padding-right: 0;
+    height: 50px;
+    font-size: 16px;
+    border-bottom: #fff solid 2px;
 }
 
 .mobile-top-menu .close-menu-icon span {
@@ -106,7 +93,7 @@ body {
 }
 
 .hero {
-    background-image: url("images/banner3.jpg");
+    background-image: url(images/backgrounds/banner3.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -131,7 +118,7 @@ body {
 }
 
 .hero-picture {
-    background-image: url("images/bcgamejam-hz.png");
+    background-image: url(images/logos/bcgamejam-hz.png);
     width: 90%;
     height: 100%;
     background-position: center;
@@ -257,16 +244,16 @@ body {
 }
 
 .agda .club-logo {
-    background-image: url(images/logo-transparent.png);
+    background-image: url(images/logos/logo-transparent.png);
     cursor: pointer;
 }
 
 .sfu .club-logo {
-    background-image: url(images/sfu.png);
+    background-image: url(images/logos/sfu.png);
 }
 
 .bcit .club-logo {
-    background-image: url(images/bcit.png);
+    background-image: url(images/logos/bcit.png);
     cursor: pointer;
 }
 
