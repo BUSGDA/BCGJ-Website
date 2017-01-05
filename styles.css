@@ -118,7 +118,7 @@ body {
 }
 
 .hero-picture {
-    background-image: url(images/logos/bcgamejam-hz.png);
+    background-image: url(images/logos/gamejam.png);
     width: 90%;
     height: 100%;
     background-position: center;
@@ -326,7 +326,7 @@ h3.subtitle a {
     }
 
     .hero-picture {
-        max-height: 250px;
+        max-height: 400px;
         width: 100%;
     }
 
