@@ -277,6 +277,10 @@ section:nth-child(3n) {
 }
 
 @media screen and (min-width: 769px) {
+    body {
+        background-image: url(images/backgrounds/background-desktop.jpg);
+    }
+
     .mobile-top-menu,
     .mobile-top-menu-icon {
         display: none;
@@ -300,10 +304,11 @@ section:nth-child(3n) {
         cursor: pointer;
         padding: 10px;
         display: block;
+        color: #fff;
     }
 
     .top-menu a:hover {
-        background-color: #005599;
+        background-color: #ccc;
     }
 
     .top-menu-right {
