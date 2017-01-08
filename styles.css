@@ -152,6 +152,28 @@ section:nth-child(3n) {
     background-color: #3f3f3f;
     height: 100vh;
     text-align: center;
+    font-size: 25px;
+}
+
+.info p {
+    margin: 5px;
+}
+
+.info-title {
+    font-size: 30px;
+}
+
+.info-location {
+    font-size: 23px;
+}
+
+.info-signup a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 35px;
+    display: block;
+    padding: 25px;
+    cursor: pointer;
 }
 
 .faq {
@@ -328,6 +350,36 @@ h3.subtitle a {
     .hero-picture {
         max-height: 400px;
         width: 100%;
+    }
+
+    .info p {
+        margin: 0;
+    }
+
+    .info-title {
+        font-size: 50px;
+        padding: 8px;
+    }
+
+    .info-date {
+        padding-bottom: 8px;
+    }
+
+    .info-location {
+        padding-bottom: 8px;
+    }
+
+    .info-signup:hover {
+        background-image: url(images/assets/attention.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 92px;
+        width: 372px;
+    }
+
+    .info-signup a:hover {
+        font-size: 32px;
     }
 
     .faq-item-content {
