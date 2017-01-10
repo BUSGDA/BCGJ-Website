@@ -11,6 +11,7 @@ body {
     background-image: url(images/backgrounds/background-mobile.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position-x: center;
     color: #fff;
     text-shadow: 0 0 3px rgb(0,0,1);
 }
@@ -106,15 +107,11 @@ body {
     padding: 20px 0;
 }
 
-.hero-text .title {
-    margin: 10px 0;
-    font-size: 40px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-    font-weight: 800;
-}
-
-.hero-text .subtitle {
-    margin: 20px 0;
+.hero-text a {
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .hero-picture {
@@ -152,7 +149,7 @@ section:nth-child(3n) {
     background-color: #3f3f3f;
     height: 100vh;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .info p {
@@ -160,17 +157,21 @@ section:nth-child(3n) {
 }
 
 .info-title {
-    font-size: 30px;
+    font-size: 28px;
+}
+
+.info-date {
+    font-size: 20px;
 }
 
 .info-location {
-    font-size: 23px;
+    font-size: 18.5px;
 }
 
 .info-signup a {
-    color: inherit;
+    color: inherit;;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 28px;
     display: block;
     padding: 25px;
     cursor: pointer;
@@ -205,9 +206,10 @@ section:nth-child(3n) {
 
 .faq-item-content a {
     text-decoration: none;
-    color: #aaa;
+    color: #41c19d;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .directions {
@@ -243,15 +245,29 @@ section:nth-child(3n) {
     list-style-type: circle;
     align-items: flex-start;
     margin: 0;
+    padding-top: 0;
 }
 
 .bring-item {
-    padding: 10px 0;
+    padding: 7px 0;
+}
+
+.bring-extras {
+    padding-top: 7px;
+    list-style-type: circle;
+    margin-bottom: -7px;
 }
 
 .about-us {
     background-color: #3f3f3f;
     padding: 20px 20px;
+}
+
+.about-text {
+    padding-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
 }
 
 .club {
@@ -300,7 +316,7 @@ section:nth-child(3n) {
 
 /* sponsorship.html */
 h3.subtitle a {
-    color: #aaa;
+    color: #41c19d;
     text-decoration: none;
     font-weight: 800;
 }
@@ -309,6 +325,7 @@ h3.subtitle a {
 @media screen and (min-width: 769px) {
     body {
         background-image: url(images/backgrounds/background-desktop.jpg);
+        background-position-x: initial;
     }
 
     .mobile-top-menu,
@@ -352,8 +369,21 @@ h3.subtitle a {
         width: 100%;
     }
 
+    .bring-item {
+        padding: 10px 0;
+    }
+
+    .bring-extras {
+        padding-top: 10px;
+        margin-bottom: -10px;
+    }
+
     .info p {
         margin: 0;
+    }
+
+    .info-pitch {
+        font-size: 25px;
     }
 
     .info-title {
@@ -363,10 +393,12 @@ h3.subtitle a {
 
     .info-date {
         padding-bottom: 8px;
+        font-size: 25px;
     }
 
     .info-location {
         padding-bottom: 8px;
+        font-size: 23px;
     }
 
     .info-signup:hover {
@@ -376,6 +408,10 @@ h3.subtitle a {
         background-repeat: no-repeat;
         height: 92px;
         width: 372px;
+    }
+
+    .info-signup a {
+        font-size: 35px;
     }
 
     .info-signup a:hover {
@@ -398,6 +434,10 @@ h3.subtitle a {
         flex-wrap: wrap;
         align-items: stretch;
         justify-content: space-between;
+    }
+
+    .about-text {
+        font-size: 20px;
     }
 
     .club {
