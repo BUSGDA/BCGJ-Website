@@ -177,6 +177,21 @@ section:nth-child(3n) {
     cursor: pointer;
 }
 
+.facebook-event {
+    width: 160px;
+    height: 40px;
+}
+
+.facebook-event a {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(images/logos/FB-512-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .faq {
     min-height: 100vh;
 }
