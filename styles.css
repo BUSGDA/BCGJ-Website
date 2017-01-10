@@ -530,3 +530,21 @@ h3.subtitle a,
 }
 
 /* sponsorship.html end */
+
+/* volunteer.html start */
+
+.volunteer {
+    padding: 20px;
+}
+
+.volunteer-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteer-signup .info-signup {
+    margin: 0;
+}
+
+/* volunteer.html end */
