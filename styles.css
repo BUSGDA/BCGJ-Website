@@ -314,14 +314,6 @@ section:nth-child(3n) {
     font-size: 12px;
 }
 
-/* sponsorship.html */
-h3.subtitle a {
-    color: #41c19d;
-    text-decoration: none;
-    font-weight: 800;
-}
-/* sponsorship.html end */
-
 @media screen and (min-width: 769px) {
     body {
         background-image: url(images/backgrounds/background-desktop.jpg);
@@ -464,3 +456,77 @@ h3.subtitle a {
         top: -10px;
     }
 }
+
+/* sponsorship.html */
+
+.contact {
+    min-height: 70vh;
+    padding: 20px;
+}
+
+h3.subtitle a {
+    color: #41c19d;
+}
+
+h3.subtitle a,
+.club-email a,
+.club-website a {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.contact .agda {
+    border-top: #fcfa29 solid 2px;
+}
+
+.contact .agda .club-email a,
+.contact .agda .club-website a {
+    color: #fcfa29;
+}
+
+.contact .bcit {
+    border-top: #41c19d solid 2px;
+}
+
+.contact .bcit .club-email a,
+.contact .bcit .club-website a {
+    color: #41c19d;
+}
+
+.contact .sfu {
+    border-top: #fe2e36 solid 2px;
+}
+
+.contact .sfu .club-email a {
+    color: #fe2e36;
+}
+
+.contact .club {
+    flex-wrap: wrap;
+}
+
+.club-email,
+.club-website {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.club-website a {
+    border-bottom: white solid 1px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 769px) {
+    .contact.text-align {
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .contact .club {
+        border: none;
+    }
+}
+
+/* sponsorship.html end */
