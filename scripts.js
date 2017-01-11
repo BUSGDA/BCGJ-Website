@@ -2,7 +2,7 @@ function setCss() {
     var deviceHeight = screen.height;
     if (deviceHeight < 769) {
         $('.fix-height').css('min-height', deviceHeight + 'px');
-        $('.hero').css('height', deviceHeight + 'px');    
+        $('.hero').css('height', deviceHeight + 'px');
     }
 }
 

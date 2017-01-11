@@ -99,7 +99,7 @@ body {
 }
 
 .hero {
-    min-height: 480px;
+    height: 100vh;
 }
 
 .hero-text {
@@ -372,7 +372,6 @@ section:nth-child(3n) {
         justify-content: center;
     }
 
-    .hero,
     .info,
     .faq,
     .bring {
