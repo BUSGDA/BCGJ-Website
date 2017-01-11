@@ -7,6 +7,7 @@ body,
 body {
     margin: 0;
     padding: 0;
+    max-width: 100vw;
     font-family: 'Lato', sans-serif;
     background-image: url(images/backgrounds/background-mobile.jpg);
     /* TODO: put different breakpoints for different phones - image is too stretched on smaller phones */
@@ -98,7 +99,7 @@ body {
 }
 
 .hero {
-    height: 100vh;
+    min-height: 480px;
 }
 
 .hero-text {
@@ -147,7 +148,7 @@ section:nth-child(3n) {
 
 .info {
     background-color: #3f3f3f;
-    height: 100vh;
+    min-height: 480px;
     text-align: center;
     font-size: 22px;
 }
@@ -193,7 +194,7 @@ section:nth-child(3n) {
 }
 
 .faq {
-    min-height: 100vh;
+    min-height: 480px;
 }
 
 .faq-content {
@@ -247,7 +248,7 @@ section:nth-child(3n) {
 }
 
 .bring {
-    min-height: 100vh;
+    min-height: 480px;
     margin-top: -4px;
 }
 
@@ -369,6 +370,13 @@ section:nth-child(3n) {
     .top-menu-right {
         display: flex;
         justify-content: center;
+    }
+
+    .hero,
+    .info,
+    .faq,
+    .bring {
+        min-height: 100vh;
     }
 
     .hero-picture {
