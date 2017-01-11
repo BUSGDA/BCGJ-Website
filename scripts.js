@@ -1,8 +1,9 @@
 function setCss() {
-    var deviceHeight = screen.height;
-    if (deviceHeight < 769) {
-        $('.fix-height').css('min-height', deviceHeight + 'px');
-        $('.hero').css('height', deviceHeight + 'px');
+    if (screen.height < 769) {
+        var deviceHeight = screen.height + 'px';
+        $('.fix-height').css('min-height', deviceHeight);
+        $('.hero').css('height', deviceHeight);
+        $('body').css('background-size', '100% ' + deviceHeight);
     }
 }
 
