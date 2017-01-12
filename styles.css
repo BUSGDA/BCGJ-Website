@@ -479,7 +479,7 @@ section:nth-child(3n) {
     }
 }
 
-/* sponsorship.html */
+/* sponsorship start */
 
 .contact {
     min-height: 70vh;
@@ -551,9 +551,9 @@ h3.subtitle a,
     }
 }
 
-/* sponsorship.html end */
+/* sponsorship end */
 
-/* volunteer.html start */
+/* volunteer start */
 
 .volunteer {
     padding: 20px;
@@ -569,4 +569,4 @@ h3.subtitle a,
     margin: 0;
 }
 
-/* volunteer.html end */
+/* volunteer end */
