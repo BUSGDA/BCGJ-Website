@@ -64,6 +64,7 @@ body {
     left: 0;
     opacity: 0;
     transition: opacity ease 1s;
+    z-index: 1;
 }
 
 .mobile-top-menu.open {
@@ -359,6 +360,40 @@ section:nth-child(3n) {
     font-size: 12px;
 }
 
+.sponsors {
+    background-color: #3f3f3f;
+}
+
+.sponsors-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 40px 20px;
+    width: 100%;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.sponsor-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sponsor {
+    padding: 25px;
+}
+
+.sponsor-link {
+    display: block;
+    -webkit-transition: filter linear 0.3s;
+    transition: filter linear 0.3s;
+}
+
+.sponsor-logo {
+    width: 100%;
+}
+
 @media screen and (min-width: 769px) {
     body {
         background-image: url(images/backgrounds/background-desktop.jpg);
@@ -381,6 +416,7 @@ section:nth-child(3n) {
         left: 0;
         width: 100vw;
         border-bottom: #666 solid 1px;
+        z-index: 1;
     }
 
     .top-menu a {
@@ -505,6 +541,36 @@ section:nth-child(3n) {
         font-size: 20px;
         position: absolute;
         top: -10px;
+    }
+
+    .sponsors-content {
+        padding: 20px 20px 60px 20px;
+    }
+
+    .sponsor-block {
+        width: 50%;
+    }
+
+    .sponsor-block:nth-child(odd) {
+        padding: 10px 25px 10px 10px;
+    }
+
+    .sponsor-block:nth-child(even) {
+        padding: 10px 10px 10px 25px;
+    }
+
+    .sponsor {
+        padding: 0;
+    }
+
+    .sponsor:nth-child(2) {
+        padding: 15px 0;
+    }
+
+    .sponsor-link:hover {
+        cursor: pointer;
+        -webkit-filter: invert(100%); /* Safari 6.0 - 9.0 */
+        filter: invert(100%);
     }
 }
 
