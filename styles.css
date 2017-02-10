@@ -576,7 +576,7 @@ section:nth-child(3n) {
     }
 
     .partner:nth-child(2) {
-        padding: 15px 0;
+        padding: 30px;
     }
 
     .partner-link:hover {
