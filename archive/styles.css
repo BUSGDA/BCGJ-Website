@@ -1,0 +1,96 @@
+ul {
+    padding: 10px 20px;
+    margin: 0;
+    list-style: circle;
+}
+
+span {
+    display: inline-block;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+    display: block;
+    max-width: 516px;
+    margin: 15px auto;
+}
+
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.archive-title {
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.archive-content {
+    padding: 0px 20px;
+    margin-bottom: 40px;
+}
+
+.archive-content-title {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 26px;
+}
+
+.archive-list {
+    font-size: 24px;
+    margin-bottom: 40px;
+    border-top: #fff solid 1px;
+}
+
+.archive-list a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.archive-list a:hover {
+    color: #41c19d;
+}
+
+.winners-list {
+    padding: 20px;
+    border-top: #fff solid 1px;
+}
+
+.winners-judge {
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.winners-team {
+    padding: 0 20px;
+}
+
+.winners-game {
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+
+.dev-team,
+.audio-team {
+    margin-bottom: 5px;
+}
+
+.winners-position {
+    text-decoration: underline;
+    display: inline;
+}
+
+.winners {
+    display: inline;
+}
+
+@media screen and (max-width: 800px) {
+    .winners-team {
+        padding: 0;
+    }
+}

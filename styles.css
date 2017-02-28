@@ -146,18 +146,21 @@ section:nth-child(3n) {
     border-top: #fe2e36 solid 2px;
 }
 
-.info {
+.info,
+.recap {
     background-color: #3f3f3f;
     min-height: 480px;
     text-align: center;
     font-size: 22px;
 }
 
-.info p {
+.info,
+.recap p {
     margin: 5px;
 }
 
-.info-title {
+.info-title,
+.recap-title {
     font-size: 28px;
 }
 
@@ -176,6 +179,35 @@ section:nth-child(3n) {
     display: block;
     padding: 25px;
     cursor: pointer;
+}
+
+.recap-subtitle {
+    font-size: 28px;
+    list-style: none;
+    padding: 0;
+}
+
+.recap-subtitle-item {
+    padding: 6px;
+}
+
+.recap-subtitle-item a {
+    display: block;
+}
+
+.recap-subtitle-item a:hover {
+    color: #41c19d;
+}
+
+.recap-subtitle-item:nth-child(2) {
+    border: #fff 2px;
+    border-style: solid none;
+}
+
+.recap-subtitle-item a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
 }
 
 .facebook-event {
@@ -445,7 +477,8 @@ section:nth-child(3n) {
 
     .info,
     .faq,
-    .bring {
+    .bring,
+    .recap {
         min-height: 100vh;
     }
 
@@ -463,7 +496,8 @@ section:nth-child(3n) {
         margin-bottom: -10px;
     }
 
-    .info p {
+    .info p,
+    .recap p {
         margin: 0;
     }
 
@@ -471,7 +505,8 @@ section:nth-child(3n) {
         font-size: 25px;
     }
 
-    .info-title {
+    .info-title,
+    .recap-title {
         font-size: 50px;
         padding: 8px;
     }
@@ -501,6 +536,10 @@ section:nth-child(3n) {
 
     .info-signup a:hover {
         font-size: 32px;
+    }
+
+    .recap-subtitle {
+        font-size: 35px;
     }
 
     .faq-item-content {

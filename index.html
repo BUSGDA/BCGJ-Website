@@ -8,14 +8,14 @@
         <link rel="icon" href="favicon.ico" type="image/ico"/>
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="scripts.js"></script>
     </head>
     <body>
         <div class="mobile-top-menu-icon"><div class="menu-bar"></div></div>
         <div class="mobile-top-menu">
             <a class="close-menu-icon"><span>[X]</span>Close Menu</a>
             <a class="home" href="http://bcgamejam.com/">Home</a>
+            <a class="archive" href="http://bcgamejam.com/archive/">
+                Archive</a>
             <a class="contact-us" href="http://bcgamejam.com/contact/">
                 Contact Us</a>
             <a class="sponsor-us" href="http://bcgamejam.com/sponsorship/">
@@ -26,6 +26,8 @@
         <div class="top-menu">
             <a class="home" href="http://bcgamejam.com/">Home</a>
             <div class="top-menu-right">
+                <a class="archive" href="http://bcgamejam.com/archive/">
+                    Archive</a>
                 <a class="contact-us" href="http://bcgamejam.com/contact/">
                     Contact Us</a>
                 <a class="sponsor-us" href="http://bcgamejam.com/sponsorship/">
@@ -39,7 +41,7 @@
             <div class="hero-text"><a href="#about">Presented By BUS</a></div>
         </div>
         <div class="content">
-            <section id="info" class="info text-align fix-height">
+            <section id="info" class="info text-align fix-height" style="display:none;">
                 <p class="info-pitch">You're invited to</p>
                 <p class="info-title">The BC Game Jam 2017</p>
                 <p class="info-date">February 10th to 12th</p>
@@ -51,6 +53,18 @@
                 </p>
                 <div class="facebook-event">
                     <a href="https://www.facebook.com/events/1406585489362985/" target="_blank"></a>
+                </div>
+            </section>
+            <section id="recap" class="recap text-align fix-height">
+                <p class="recap-pitch">Thank you for joining us at the</p>
+                <p class="recap-title">The BC Game Jam 2017</p>
+                <ul class="recap-subtitle">
+                    <li class="recap-subtitle-item"><a href="http://bcgamejam.com/gallery/">Gallery</a></li>
+                    <li class="recap-subtitle-item"><a href="http://bcgamejam.com/archive/">Winners</a></li>
+                    <li class="recap-subtitle-item"><a href="http://www.hackathon.io/bc-game1/projects">Projects</a></li>
+                </ul>
+                <div class="facebook-event">
+                    <a href="https://www.facebook.com/bcgamejam/" target="_blank"></a>
                 </div>
             </section>
             <section id="faq" class="faq text-align fix-height">
@@ -383,5 +397,9 @@
                 </div>
             </section>
         </div>
+
+        <!-- SCRIPTS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="scripts.js"></script>
     </body>
 </html>
