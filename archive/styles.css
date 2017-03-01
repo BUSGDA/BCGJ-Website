@@ -94,6 +94,8 @@ img {
     text-align: center;
     display: block;
     color: #fcfa29;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .winners-team {
@@ -117,6 +119,13 @@ img {
 
 .winners {
     display: inline;
+}
+
+.winner-place {
+    display: block;
+    padding-bottom: 10px;
+    color: #fe2e36;
+    font-size: 15px;
 }
 
 hr {
