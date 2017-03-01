@@ -16,58 +16,87 @@ img {
     margin: 15px auto;
 }
 
-.content-wrapper {
+.archive-hero {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0px 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .archive-title {
     font-size: 32px;
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
-}
-
-.archive-content {
-    padding: 0px 20px;
-    margin-bottom: 40px;
-}
-
-.archive-content-title {
-    margin: 0;
-    padding: 10px 0;
-    font-size: 26px;
 }
 
 .archive-list {
-    font-size: 24px;
-    margin-bottom: 40px;
-    border-top: #fff solid 1px;
+    font-size: 20px;
+    margin: 30px 0 60px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.archive-list li {
+    padding: 10px 0;
+    text-align: center;
 }
 
 .archive-list a {
-    color: inherit;
+    color: #41c19d;
     text-decoration: none;
+    display: block;
+    padding: 5px;
 }
 
-.archive-list a:hover {
-    color: #41c19d;
+.archive-content {
+    padding-top: 40px;
+}
+
+.archive-content-title {
+    margin: 0px 0 15px 0;
+    padding: 10px 0;
+    font-size: 35px;
+    text-align: center;
 }
 
 .winners-list {
-    padding: 20px;
+    padding: 20px 40px;
     border-top: #fff solid 1px;
+}
+
+.winners-list:nth-child(odd) {
+    background-color: rgba(51,51,51,0.8);
+}
+
+.winners-list:nth-child(even) {
+    background-color: rgba(102,102,102,0.8);
+}
+
+.winners-list:last-child .winner-wrapper {
+    margin-bottom: 40px;
+}
+
+.winner-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .winners-judge {
     margin-left: -20px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 800;
     padding-bottom: 10px;
+    text-align: center;
+    display: block;
+    color: #fcfa29;
 }
 
 .winners-team {
-    padding: 0 20px;
+    padding: 0;
 }
 
 .winners-game {
@@ -87,6 +116,15 @@ img {
 
 .winners {
     display: inline;
+}
+
+hr {
+    margin: 30px 0 20px 0;
+    border-color: #fe2e36;
+}
+
+hr:first-of-type {
+    margin: 5px 0 20px 0;
 }
 
 @media screen and (max-width: 800px) {
