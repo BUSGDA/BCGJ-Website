@@ -355,11 +355,11 @@ section:nth-child(3n) {
 }
 
 .club {
-    height: 100%;
     width: 100%;
     flex-direction: row;
     font-size: 20px;
-    padding: 15px 0;
+    height: 170px;
+    padding: 30% 0;
 }
 
 .club-logo {
@@ -574,6 +574,7 @@ section:nth-child(3n) {
         width: 32%;
         flex-direction: column;
         padding: 15px 5px;
+        height: 100%;
     }
 
     .club-logo {
