@@ -1,7 +1,7 @@
 ul {
     padding: 10px 20px;
     margin: 0;
-    list-style: circle;
+    list-style: none;
 }
 
 span {
@@ -65,6 +65,7 @@ img {
 .winners-list {
     padding: 20px 40px;
     border-top: #fff solid 1px;
+    text-align: center;
 }
 
 .winners-list:nth-child(odd) {
@@ -130,5 +131,10 @@ hr:first-of-type {
 @media screen and (max-width: 800px) {
     .winners-team {
         padding: 0;
+    }
+
+    .winners-position,
+    .winners {
+        display: block;
     }
 }
