@@ -1,0 +1,17 @@
+.hero-picture-2017 {
+    background-image: url(../images/logos/2017/gamejam-2.png);
+    width: 90%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+@media screen and (min-width: 769px) {
+    .hero-picture-2017 {
+        max-height: 400px;
+        width: 100%;
+    }
+}
