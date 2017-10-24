@@ -9,7 +9,7 @@ span {
     line-height: 1.5;
 }
 
-img {
+.content-wrapper img {
     width: 100%;
     display: block;
     max-width: 516px;

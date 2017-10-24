@@ -176,7 +176,8 @@ section:nth-child(3n) {
     cursor: pointer;
 }
 
-.info-2017 a {
+.info-2017 a,
+.info-soon a {
     text-decoration: none;
     color: #41c19d;
 }
@@ -381,7 +382,6 @@ section:nth-child(3n) {
     background-position: center;
     padding: 25%;
     width: 50%;
-    border-radius: 50%;
 }
 
 .agda .club-logo {
@@ -501,6 +501,10 @@ section:nth-child(3n) {
     .top-menu-right {
         display: flex;
         justify-content: center;
+    }
+
+    .top-menu .home img {
+        height: 16px;
     }
 
     .info,
