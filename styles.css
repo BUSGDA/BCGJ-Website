@@ -159,12 +159,28 @@ section:nth-child(3n) {
     font-size: 28px;
 }
 
+.info-pitch {
+    margin-bottom: 0;
+}
+
 .info-date {
     font-size: 20px;
+    margin: 5px 0;
 }
 
 .info-location {
     font-size: 18.5px;
+    margin: 0;
+}
+
+.info-location a {
+    text-decoration: none;
+    color: #41c19d;
+    display: block;
+}
+
+.info-location a:hover {
+    cursor: pointer;
 }
 
 .info-signup a {
@@ -535,6 +551,7 @@ section:nth-child(3n) {
 
     .info-pitch {
         font-size: 25px;
+        margin: 22px 0;
     }
 
     .info-title,
@@ -549,7 +566,7 @@ section:nth-child(3n) {
     }
 
     .info-location {
-        padding-bottom: 8px;
+        padding-bottom: 22px;
         font-size: 23px;
     }
 
