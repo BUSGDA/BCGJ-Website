@@ -388,8 +388,7 @@ section:nth-child(3n) {
     width: 100%;
     flex-direction: row;
     font-size: 20px;
-    height: 170px;
-    padding: 30% 0;
+    padding: 10% 0;
 }
 
 .club-logo {
@@ -398,6 +397,7 @@ section:nth-child(3n) {
     background-position: center;
     padding: 25%;
     width: 50%;
+    display: block;
 }
 
 .agda .club-logo {
