@@ -440,6 +440,11 @@ section:nth-child(3n) {
     max-width: 1000px;
 }
 
+.partner-divider {
+    width: 100%;
+    height: 30px;
+}
+
 .partners-involve {
   font-size: 20px;
   display: block;
@@ -459,7 +464,16 @@ section:nth-child(3n) {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner-block.small {
+    width: 100%;
+}
+
+.partner-block.small .partner {
+    width: 50%;
 }
 
 .partner {
@@ -650,6 +664,10 @@ section:nth-child(3n) {
 
     .partner-block {
         width: 50%;
+    }
+
+    .partner-block.small .partner {
+        width: 25%;
     }
 
     .partner-block:nth-child(odd) {
