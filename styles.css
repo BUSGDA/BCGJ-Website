@@ -470,14 +470,6 @@ section:nth-child(3n) {
     align-items: center;
 }
 
-.partner-block.small {
-    width: 100%;
-}
-
-.partner-block.small .partner {
-    width: 50%;
-}
-
 .partner {
     padding: 25px;
 }
@@ -668,10 +660,6 @@ section:nth-child(3n) {
         width: 50%;
     }
 
-    .partner-block.small .partner {
-        width: 25%;
-    }
-
     .partner-block:nth-child(odd) {
         padding: 10px 25px 10px 10px;
     }
@@ -690,8 +678,8 @@ section:nth-child(3n) {
 
     .partner-link:hover {
         cursor: pointer;
-        -webkit-filter: invert(100%); /* Safari 6.0 - 9.0 */
-        filter: invert(100%);
+        -webkit-filter: contrast(300%); /* Safari 6.0 - 9.0 */
+        filter: contrast(300%);
     }
 }
 
