@@ -220,11 +220,13 @@ section:nth-child(3n) {
     color: #41c19d;
 }
 
-.recap-subtitle-item:nth-child(1),
-.recap-subtitle-item:nth-child(2),
-.recap-subtitle-item:nth-child(3) {
+.recap-subtitle-item {
     border: #fff 2px;
     border-style: none none solid none;
+}
+
+.recap-subtitle-item:last-child {
+    border: none;
 }
 
 .recap-subtitle-item a {
