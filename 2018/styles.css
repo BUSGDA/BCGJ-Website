@@ -1,5 +1,5 @@
-.hero-picture-2017 {
-    background-image: url(../images/logos/2017/gamejam-2.png);
+.hero-picture-2018 {
+    background-image: url(../images/logos/2018/gamejam.png);
     width: 90%;
     height: 100%;
     background-position: center;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 769px) {
-    .hero-picture-2017 {
+    .hero-picture-2018 {
         max-height: 400px;
         width: 100%;
     }
