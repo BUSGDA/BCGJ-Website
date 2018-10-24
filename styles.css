@@ -148,7 +148,7 @@ section:nth-child(3n) {
 .info,
 .recap {
     background-color: #3f3f3f;
-    min-height: 480px;
+    min-height: 240px;
     text-align: center;
     font-size: 22px;
 }
@@ -352,7 +352,6 @@ section:nth-child(3n) {
 
 .bring-content {
     flex-grow: 2;
-    padding: 0 20px;
 }
 
 .bring-list {
