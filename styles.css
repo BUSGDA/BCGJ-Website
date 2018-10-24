@@ -342,7 +342,9 @@ section:nth-child(3n) {
 .bring {
     background-color: #3f3f3f;
     min-height: 480px;
-    margin-top: -4px;
+	margin-top: -4px;
+	padding-left: 40%;
+	padding-right: 40%;
 }
 
 .bring-content {
