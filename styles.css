@@ -343,8 +343,6 @@ section:nth-child(3n) {
     background-color: #3f3f3f;
     min-height: 480px;
 	margin-top: -4px;
-	padding-left: 40%;
-	padding-right: 40%;
 }
 
 .bring-content {
@@ -370,7 +368,9 @@ section:nth-child(3n) {
 }
 
 .about-us {
-    padding: 20px 20px;
+	padding: 20px 20px;
+	padding-left: 40%;
+	padding-right: 40%;
 }
 
 .about-bus {
@@ -540,7 +540,9 @@ section:nth-child(3n) {
     .faq,
     .bring,
     .recap {
-        min-height: 100vh;
+		min-height: 100vh;
+		padding-left: 40%;
+		padding-right: 40%;
     }
 
     .hero-picture {
