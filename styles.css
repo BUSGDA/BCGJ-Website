@@ -148,7 +148,7 @@ section:nth-child(3n) {
 .info,
 .recap {
     background-color: #3f3f3f;
-    min-height: 240px;
+    min-height: 480px;
     text-align: center;
     font-size: 22px;
 }
@@ -257,8 +257,8 @@ section:nth-child(3n) {
     flex-grow: 2;
     width: 100%;
 	padding: 0 20px 20px 20px;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .faq-item {
@@ -346,8 +346,8 @@ section:nth-child(3n) {
     min-height: 480px;
 	margin-top: -4px;
 	
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .bring-content {
@@ -373,8 +373,8 @@ section:nth-child(3n) {
 
 .about-us {
 	padding: 20px 20px;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
 .about-bus {
