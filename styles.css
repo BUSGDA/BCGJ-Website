@@ -783,3 +783,115 @@ h3.subtitle a,
 }
 
 /* volunteer end */
+
+#social-icons .right {
+    padding-left: 50px;
+}
+
+#social-icons {
+    padding-top: 50px;
+
+}
+
+#social-icons a img {
+    box-shadow: 0px 2px 1px 0px rgba(35,35,35,1);
+    border-radius: 100px;
+    transition: 0.3s;
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+}
+
+#social-icons a:hover img {
+    filter: brightness(100%); 
+    -webkit-filter: brightness(100%); 
+}
+
+#social-icons a:active img {
+    box-shadow: 0px 0px 1px 0px rgba(35,35,35,1);
+    transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px); 
+}
+
+#social-icons a {
+    text-decoration: none;
+}
+
+
+
+/* button div */
+#buttons {
+            padding-top: 25px;
+  text-align: center;
+}
+
+/* start da css for da buttons */
+.btn {
+  padding: 15px 50px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+      transition: 0.3s;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px #CE3323;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.green:hover {
+  background-color: #48E68B;
+}
+
+.red {
+  background-color: #b8000d;
+  box-shadow: 0px 5px 0px 0px #89000a;
+}
+
+.red:hover {
+  background-color: #CE3323;
+}
+
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.purple:hover {
+  background-color: #B573D0;
+}
+
+.orange {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.orange:hover {
+  background-color: #FF983C;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+.yellow:hover {
+  background-color: #FFDE29;
+}
