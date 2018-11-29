@@ -288,7 +288,6 @@ section:nth-child(3n) {
 
 .directions {
     padding: 20px 0 0 0;
-    background-color: #3f3f3f;
 }
 
 .directions .header {
@@ -310,6 +309,10 @@ section:nth-child(3n) {
     height: 210px; /* fallback */
     height: calc((100vw * 9) / 16);
     margin: 15px 0 5px 0;
+}
+
+.schedule {
+    background-color: #3f3f3f;
 }
 
 .schedule-content {
@@ -342,7 +345,7 @@ section:nth-child(3n) {
 }
 
 .bring {
-    background-color: #3f3f3f;
+
     min-height: 480px;
 	margin-top: -4px;
 	
@@ -372,6 +375,7 @@ section:nth-child(3n) {
 }
 
 .about-us {
+        background-color: #3f3f3f;
 	padding: 20px 20px;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -419,7 +423,7 @@ section:nth-child(3n) {
 }
 
 .bcit .club-logo {
-    background-image: url(images/logos/bcit.png);
+    background-image: url(images/logos/bcit-white-bg.png);
     cursor: pointer;
 }
 
@@ -542,9 +546,17 @@ section:nth-child(3n) {
 
     .info,
     .faq,
-    .bring,
     .recap {
 		min-height: 100vh;
+    }
+
+
+    .schedule {
+        min-height: 30vh;
+    }
+
+    .bring {
+        min-height: 60vh;
     }
 
     .hero-picture {
@@ -783,3 +795,5 @@ h3.subtitle a,
 }
 
 /* volunteer end */
+
+
