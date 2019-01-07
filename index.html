@@ -50,17 +50,38 @@
 	<div class="hero text-align fix-height">
             <div class="hero-picture"></div>
             <div class="hero-text"><a href="#about">Presented By BUS</a></div>
-
-            <div id="social-icons">
-              <a href="https://www.facebook.com/bcgamejam/" class="">
-                <img src="images/social/fb-icon.png" />
-              </a>
-              <a href="https://twitter.com/bcgamejam" class="right">
-                <img src="images/social/twitter-icon.png" />
-              </a>
+            <div class="social-buttons">
+            	<div class="social-block">
+            		<div class="social">
+            			<a href="https://www.facebook.com/bcgamejam/" class="">
+            				<img src="images/social/fb-icon.png">
+            			</a>
+            		</div>
+            	</div>
+            	<div class="social-block">
+            		<div class="social">
+            			<a href="https://twitter.com/bcgamejam" class="right">
+            				<img src="images/social/twitter-icon.png">
+            			</a>
+            		</div>
+            	</div>
+            	<div class="social-block">
+            		<div class="social">
+            			<a href="https://discord.gg/6Zr8xeH" class="right">
+            				<img src="images/social/discord-icon.png">
+            			</a>
+            		</div>
+            	</div>
+            	<div class="social-block">
+            		<div class="social">
+            			<a href="https://www.twitch.tv/bcgamejam" class="right">
+            				<img src="images/social/twitch-icon.png">
+            			</a>
+            		</div>
+            	</div>
             </div>
             <div id="buttons">
-              <a href="https://www.eventbrite.com/e/bc-game-jam-2019-tickets-50625102043?aff=website" class="btn red">Get Tickets!</a>
+              <a href="https://www.eventbrite.com/e/bc-game-jam-2019-tickets-50625102043?aff=website" class="btn red" target="_blank">Get Tickets!</a>
             </div>
         </div>
     <div class="content">
@@ -69,25 +90,27 @@
                 <p class="info-title">The BC Game Jam 2019</p>
                 <p class="info-date">February 15th - 17th 2019</p>
                 <p class="info-location">
-                    <a href="#directions">Location: BCIT's Burnaby Campus</a>
+                	<a href="#directions">Location: BCIT's Burnaby Campus</a>
                 </p>
                 <p class="info-2017">
-                    Check out last year’s site at
-                    <a href="http://bcgamejam.com/2018/">bcgamejam.com/2018</a>
-                    to see what the event is all about!
+                	Check out last year’s site at
+                	<a href="http://bcgamejam.com/2018/">bcgamejam.com/2018</a>
+                	to see what the event is all about!
                 </p>
-                <p class="info-signup">
-                    <a href="https://www.eventbrite.com/e/bc-game-jam-2019-tickets-50625102043?aff=website" target="_blank">
-                        Click here to sign up!
-                    </a>
-                </p>
+
+                <div id="buttons">
+                	<a href="https://www.eventbrite.com/e/bc-game-jam-2019-tickets-50625102043?aff=website" class="btn green" target="_blank">
+                		Click here to sign up!
+                	</a>
+                </div>
+
                 <p class="info-soon">
-                    Follow our <a href="https://www.facebook.com/bcgamejam" target="_blank">
-                      Facebook page
-                    </a> to keep updated!
+                	Follow our <a href="https://www.facebook.com/bcgamejam" target="_blank">
+                		Facebook page
+                	</a> to keep updated!
                 </p>
             </section>
-		
+
 		<!-- <section id="info" class="info text-align fix-height">
             	<p class="info-pitch">Thank you for attending</p>
                 <p class="info-title">The BC Game Jam 2018</p>
@@ -121,46 +144,7 @@
             </div>
 		</section>-->
 		
-        <section id="partners" class="partners text-align">
-            <div class="header">Sponsors and Partners</div>
-            <div class="partners-content">
-                <div class="partner-block">
-                    <div class="partner">
-                        <a class="partner-link" href="https://hackhub.com/" target="_blank">
-                            <img class="partner-logo" src="images/logos/hackhub.PNG">
-                        </a>
-                    </div>
-                </div>
-				 <!-- <div class="partner-divider"></div>
-				 <div class="partner-block">
-					<div class="partner">
-						<a class="partner-link" href="https://blackbirdinteractive.com/" target="_blank">
-							<img class="partner-logo" src="images/logos/bbi.png">
-						</a>
-					</div>
-				</div> -->
-            </div>
-            <!-- <div class="header">Special Thanks To</div>
-                <div class="partners-content">
-                  <div class="partner-block">
-                      <div class="partner">
-                          <a class="partner-link" href="http://enginetap.com/" target="_blank">
-                              <img class="partner-logo" src="images/logos/enginetap.png" />
-                          </a>
-                      </div>
-                  </div>
-                </div> -->
-            <div class="partners-content partners-involve">
-                  <p>More sponsors and partners to be announced.</p>
-                  <p>Would you like to get involved?</p>
-                  <p>
-                    <a href="http://bcgamejam.com/sponsorship/">Click here for sponsorship information</a>
-                    or
-                    <a href="http://bcgamejam.com/volunteer/">here for volunteer opportunities.</a>
-                  </p>
-                </div>
-        </section>
-        <section id="faq" class="faq text-align fix-height">
+  <section id="faq" class="faq text-align fix-height">
             <div class="header">Frequently Asked Questions</div>
             <div class="faq-content">
                 <div class="faq-item">
@@ -194,6 +178,7 @@
                         Where does the event take place?
                     </div>
                     <div class="faq-item-content">
+                        BCIT's Burnaby Campus: SE2, the Great Hall. <a href="#directions">Click here</a> for directions.
                     </div>
                 </div>
                 <div class="faq-item">
@@ -236,8 +221,7 @@
                         Will meals be provided?
                     </div>
                     <div class="faq-item-content">
-                        Five delicious meals will be provided by us and our sponsors. We will be providing dinner on Friday and Saturday, Breakfast
-                        on Saturday and Sunday, and lunch on Sunday.
+                        Yes! We will provide breakfast for saturday and sunday and dinner for all 3 days.
                     </div>
                 </div>
                 <div class="faq-item">
@@ -277,7 +261,70 @@
                         hours.
                     </div>
                 </div>
+                <div class="faq-item">
+                    <div class="faq-item-title">
+                    	Is there a maximum team size?
+                    </div>
+                    <div class="faq-item-content">
+                        Yes, the maximum size is 10 people which includes any members from Tree of Audio or Pixel Route.
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-item-title">
+                    	Will meals be provided?
+                    </div>
+                    <div class="faq-item-content">
+						Yes! We will provide breakfast for Saturday and Sunday and dinner for all 3 days.
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section id="partners" class="partners text-align">
+            <div class="header">Sponsors and Partners</div>
+            <div class="partners-content">
+                <div class="partner-block">
+                    <div class="partner">
+                        <a class="partner-link" href="https://hackhub.com/" target="_blank">
+                            <img class="partner-logo" src="images/logos/2019/sponsors/hackhub_logo_transparent.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="partner-block">
+                    <div class="partner">
+                        <a class="partner-link" href="http://joinsquad.com/" target="_blank">
+                            <img class="partner-logo" src="images/logos/2019/sponsors/offworldlogo_largevector_white_mono_transparent.png">
+                        </a>
+                    </div>
+                </div>
+				 <!-- <div class="partner-divider"></div>
+				 <div class="partner-block">
+					<div class="partner">
+						<a class="partner-link" href="https://blackbirdinteractive.com/" target="_blank">
+							<img class="partner-logo" src="images/logos/bbi.png">
+						</a>
+					</div>
+				</div> -->
+            </div>
+            <!-- <div class="header">Special Thanks To</div>
+                <div class="partners-content">
+                  <div class="partner-block">
+                      <div class="partner">
+                          <a class="partner-link" href="http://enginetap.com/" target="_blank">
+                              <img class="partner-logo" src="images/logos/enginetap.png" />
+                          </a>
+                      </div>
+                  </div>
+                </div> -->
+            <div class="partners-content partners-involve">
+                  <p>More sponsors and partners to be announced.</p>
+                  <p>Would you like to get involved?</p>
+                  <p>
+                    <a href="http://bcgamejam.com/sponsorship/">Click here for sponsorship information</a>
+                    or
+                    <a href="http://bcgamejam.com/volunteer/">here for volunteer opportunities.</a>
+                  </p>
+                </div>
         </section>
         <section id="directions" class="directions text-align">
             <div class="header">How To Get Here</div>

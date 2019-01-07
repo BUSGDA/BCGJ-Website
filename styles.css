@@ -117,7 +117,7 @@ body {
 .hero-picture {
     background-image: url(images/logos/2019/gamejam.png);
     width: 90%;
-    height: 100%;
+    height: 50%;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -288,7 +288,6 @@ section:nth-child(3n) {
 
 .directions {
     padding: 20px 0 0 0;
-    background-color: #3f3f3f;
 }
 
 .directions .header {
@@ -303,6 +302,7 @@ section:nth-child(3n) {
 .directions-map iframe {
     max-width: 100vw;
     pointer-events: none;
+    margin-bottom: -3px
 }
 
 .directions-video {
@@ -310,6 +310,10 @@ section:nth-child(3n) {
     height: 210px; /* fallback */
     height: calc((100vw * 9) / 16);
     margin: 15px 0 5px 0;
+}
+
+.schedule {
+    background-color: #3f3f3f;
 }
 
 .schedule-content {
@@ -342,7 +346,7 @@ section:nth-child(3n) {
 }
 
 .bring {
-    background-color: #3f3f3f;
+
     min-height: 480px;
 	margin-top: -4px;
 	
@@ -372,6 +376,7 @@ section:nth-child(3n) {
 }
 
 .about-us {
+        background-color: #3f3f3f;
 	padding: 20px 20px;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -419,7 +424,7 @@ section:nth-child(3n) {
 }
 
 .bcit .club-logo {
-    background-image: url(images/logos/bcit.png);
+    background-image: url(images/logos/bcit-white-bg.png);
     cursor: pointer;
 }
 
@@ -436,8 +441,26 @@ section:nth-child(3n) {
     font-size: 12px;
 }
 
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 0px 20px;
+    width: 100%;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.social-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
 .partners {
-    background-color: #3f3f3f;
+    background-color: #767676;
 }
 
 .partners-content {
@@ -485,8 +508,8 @@ section:nth-child(3n) {
 
 .partner-link {
     display: block;
-    -webkit-transition: filter linear 0.3s;
-    transition: filter linear 0.3s;
+   //-webkit-transition: filter linear 0.3s;
+   // transition: filter linear 0.3s;
 }
 
 .partner-logo {
@@ -542,9 +565,17 @@ section:nth-child(3n) {
 
     .info,
     .faq,
-    .bring,
     .recap {
-		min-height: 100vh;
+		min-height: 75vh;
+    }
+
+
+    .schedule {
+        min-height: 30vh;
+    }
+
+    .bring {
+        min-height: 60vh;
     }
 
     .hero-picture {
@@ -690,6 +721,31 @@ section:nth-child(3n) {
         -webkit-filter: contrast(300%); /* Safari 6.0 - 9.0 */
         filter: contrast(300%);
     }
+
+    .social-buttons {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .social-block {
+        width: 25%;
+    }
+
+    .social-block:nth-child(odd) {
+        padding: 10px 25px 10px 10px;
+    }
+
+
+    .social-block:nth-child(even) {
+        padding: 10px 10px 10px 25px;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .social:nth-child(2)  {
+        padding: 30px;
+    }
 }
 
 /* sponsorship start */
@@ -820,7 +876,6 @@ h3.subtitle a,
 
 /* button div */
 #buttons {
-            padding-top: 25px;
   text-align: center;
 }
 
@@ -852,12 +907,15 @@ h3.subtitle a,
 }
 
 .green {
-  background-color: #2ecc71;
-  box-shadow: 0px 5px 0px 0px #15B358;
+  background-color: #41c19d;
+  box-shadow: 0px 5px 0px 0px #369e81;
 }
 
 .green:hover {
-  background-color: #48E68B;
+  background-color: #4bdeb4;
+}
+.btn.green:active {
+  box-shadow: 0px 1px 0px 0px #369e81;
 }
 
 .red {
@@ -895,3 +953,13 @@ h3.subtitle a,
 .yellow:hover {
   background-color: #FFDE29;
 }
+
+@media screen and (max-width: 768px) {
+    .social {
+        //padding: 25px;
+        -ms-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+}
+
