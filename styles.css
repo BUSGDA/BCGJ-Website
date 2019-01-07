@@ -973,6 +973,8 @@ h3.subtitle a,
 
     body {
         background-size: 100% 100vh;
+        padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right);
     }
 }
 
