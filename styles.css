@@ -964,11 +964,15 @@ h3.subtitle a,
     }
 
     .hero-picture {
-        min-height: 45vh;
+        height: 45vh;
     }
 
     .hero {
         height: auto;
+    }
+
+    body {
+        background-size: 125% 100vh;
     }
 }
 
