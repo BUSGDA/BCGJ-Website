@@ -14,6 +14,8 @@ body {
     background-attachment: fixed;
     color: #fff;
     text-shadow: 0 0 3px rgb(0,0,1);
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
 }
 
 .text-align {
@@ -973,8 +975,6 @@ h3.subtitle a,
 
     body {
         background-size: 100% 100vh;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
