@@ -581,6 +581,8 @@ section:nth-child(3n) {
     .hero-picture {
         max-height: 400px;
         width: 100%;
+        min-height: 40vh;
+        margin-top: 30px;
     }
 
     .bring-item {
@@ -846,7 +848,6 @@ h3.subtitle a,
 
 #social-icons {
     padding-top: 50px;
-
 }
 
 .social-buttons a img {
@@ -960,6 +961,14 @@ h3.subtitle a,
         -ms-transform: scale(0.75);
         -webkit-transform: scale(0.75);
         transform: scale(0.75);
+    }
+
+    .hero-picture {
+        min-height: 45vh;
+    }
+
+    .hero {
+        height: auto;
     }
 }
 
