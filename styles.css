@@ -462,7 +462,7 @@ section:nth-child(3n) {
 
 
 .partners {
-    background-color: #767676;
+    background-color: #696969;
 }
 
 .partners-content {
@@ -510,14 +510,25 @@ section:nth-child(3n) {
 
 .partner-link {
     display: block;
-   //-webkit-transition: filter linear 0.3s;
-   // transition: filter linear 0.3s;
+    text-align: center;
 }
 
 .partner-logo {
     width: 100%;
 }
 
+.partner-block.gold .partner-logo {
+    width: 75%;
+}
+
+.partner-block.silver .partner-logo {
+    width: 60%;
+}
+
+.partner-block.special .partner-logo {
+    width: 50%;
+}
+ 
 @media screen and (min-width: 769px) {
     body {
         background-image: url(images/backgrounds/background-desktop.jpg);
@@ -722,8 +733,6 @@ section:nth-child(3n) {
 
     .partner-link:hover {
         cursor: pointer;
-        -webkit-filter: contrast(300%); /* Safari 6.0 - 9.0 */
-        filter: contrast(300%);
     }
 
     .social-buttons {
@@ -957,6 +966,11 @@ h3.subtitle a,
   background-color: #FFDE29;
 }
 
+#partners, #partners .header {
+    color: rgba(0,0,0,1);
+    text-shadow: none;
+}
+
 @media screen and (max-width: 768px) {
     .social {
         //padding: 25px;
@@ -978,3 +992,9 @@ h3.subtitle a,
     }
 }
 
+
+@media screen and (min-width: 769px) {
+    .partner-block.platinum .partner-logo {
+        width: auto;
+    }
+}
