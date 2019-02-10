@@ -525,10 +525,15 @@ section:nth-child(3n) {
     width: 60%;
 }
 
-.partner-block.special .partner-logo {
-    width: 50%;
+.partner-block.bronze .partner-logo {
+    width: 25%;
 }
  
+.partner-block.special .partner-logo {
+    width: 100%;
+}
+
+
 @media screen and (min-width: 769px) {
     body {
         background-image: url(images/backgrounds/background-desktop.jpg);
@@ -713,6 +718,10 @@ section:nth-child(3n) {
 
     .partner-block {
         width: 50%;
+    }
+
+    .partner-block.special {
+        width: 25%;
     }
 
     .partner-block:nth-child(odd) {
