@@ -9,7 +9,7 @@ body {
     padding: 0;
     max-width: 100vw;
     font-family: 'Lato', sans-serif;
-    background-image: url(images/backgrounds/background-mobile.jpg);
+    background-image: url(http://bcgamejam.com/images/backgrounds/background-mobile.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
@@ -117,7 +117,7 @@ body {
 }
 
 .hero-picture {
-    background-image: url(images/logos/2019/gamejam.png);
+    background-image: url(http://bcgamejam.com/images/logos/2019/gamejam.png);
     width: 90%;
     height: 50%;
     background-position: center;
@@ -245,7 +245,7 @@ section:nth-child(3n) {
     display: block;
     min-width: 100%;
     min-height: 100%;
-    background-image: url(images/logos/FB-512-white.png);
+    background-image: url(http://bcgamejam.com/images/logos/FB-512-white.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -417,16 +417,16 @@ section:nth-child(3n) {
 }
 
 .agda .club-logo {
-    background-image: url(images/logos/agda.jpg);
+    background-image: url(http://bcgamejam.com/images/logos/agda.jpg);
     cursor: pointer;
 }
 
 .sfu .club-logo {
-    background-image: url(images/logos/sfu.png);
+    background-image: url(http://bcgamejam.com/images/logos/sfu.png);
 }
 
 .bcit .club-logo {
-    background-image: url(images/logos/bcit-white-bg.png);
+    background-image: url(http://bcgamejam.com/images/logos/bcit-white-bg.png);
     cursor: pointer;
 }
 
@@ -536,7 +536,7 @@ section:nth-child(3n) {
 
 @media screen and (min-width: 769px) {
     body {
-        background-image: url(images/backgrounds/background-desktop.jpg);
+        background-image: url(http://bcgamejam.com/images/backgrounds/background-desktop.jpg);
         background-size: cover;
     }
 
@@ -639,7 +639,7 @@ section:nth-child(3n) {
     }
 
     .info-signup:hover {
-        background-image: url(images/assets/attention.png);
+        background-image: url(http://bcgamejam.com/images/assets/attention.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
