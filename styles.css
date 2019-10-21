@@ -104,6 +104,10 @@ body {
     height: 100vh;
 }
 
+.hero.contact-page {
+    height: 50vh;
+}
+
 .hero-text {
     text-align: center;
     width: 100%;
