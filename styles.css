@@ -524,15 +524,15 @@ section:nth-child(3n) {
 }
 
 .partner-block.gold .partner-logo {
-    width: 75%;
+    width: 100%;
 }
 
 .partner-block.silver .partner-logo {
-    width: 60%;
+    width: 100%;
 }
 
 .partner-block.bronze .partner-logo {
-    width: 25%;
+    width: 80%;
 }
  
 .partner-block.special .partner-logo {
@@ -726,8 +726,17 @@ section:nth-child(3n) {
         width: 50%;
     }
 
+    .partner-block.special.firstrow {
+        width: 50%;
+    }
+
+
     .partner-block.special {
-        width: 25%;
+        width: 33%;
+    }
+
+    .partner-block.silver {
+        width: 65%;
     }
 
     .partner-block:nth-child(odd) {
