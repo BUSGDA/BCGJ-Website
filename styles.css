@@ -421,7 +421,7 @@ section:nth-child(3n) {
 }
 
 .agda .club-logo {
-    background-image: url(http://bcgamejam.com/images/logos/ubc-gamedev.jpg);
+    background-image: url(http://bcgamejam.com/images/logos/ubc-gamedev.png);
     cursor: pointer;
 }
 
@@ -541,6 +541,10 @@ section:nth-child(3n) {
 
 
 @media screen and (min-width: 769px) {
+    .partner-block.special.secondrow {
+        padding-top: 40px;
+    }
+
     body {
         background-image: url(http://bcgamejam.com/images/backgrounds/background-desktop.jpg);
         background-size: cover;
