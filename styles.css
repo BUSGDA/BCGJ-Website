@@ -1025,4 +1025,18 @@ h3.subtitle a,
     .partner-block.platinum .partner-logo {
         width: auto;
     }
+
+    body .countdown-container {
+        margin: 70px;
+        margin-top: -70px;
+    }
+}
+
+.countdown-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+body .timeTo figcaption {
+    color: #fff;
 }

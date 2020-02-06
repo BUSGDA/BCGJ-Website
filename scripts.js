@@ -32,3 +32,12 @@ function openMenu() {
 function closeMenu() {
     $('.mobile-top-menu').removeClass('open');
 }
+
+$('#countdown').timeTo({
+    timeTo: new Date(new Date('Thu Feb 14 2020 17:00:00 GMT-0800 (Pacific Standard Time)')),
+    displayDays: 2,
+    theme: "black",
+    displayCaptions: true,
+    fontSize: 48,
+    captionSize: 14
+});
