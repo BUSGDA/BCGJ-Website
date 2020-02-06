@@ -41,3 +41,12 @@ $('#countdown').timeTo({
     fontSize: 48,
     captionSize: 14
 });
+
+$('#clock').timeTo({
+    timeTo: new Date(new Date('Thu Feb 14 2020 17:00:00 GMT-0800 (Pacific Standard Time)')),
+    displayDays: 1,
+    theme: "black",
+    displayCaptions: true,
+    fontSize: 40,
+    captionSize: 14
+});
