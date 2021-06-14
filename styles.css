@@ -1,0 +1,1042 @@
+html,
+body,
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    font-family: 'Lato', sans-serif;
+    background-image: url(http://bcgamejam.com/images/backgrounds/background-mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    text-shadow: 0 0 3px rgb(0,0,1);
+    padding-left: constant(safe-area-inset-left);
+    padding-right: constant(safe-area-inset-right);
+}
+
+.text-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+	padding: 20px 0;
+}
+
+.mobile-top-menu-icon {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    border: #fff 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3f3f3f;
+}
+
+.menu-bar {
+    width: 70%;
+    height: 40%;
+    border: white 4px solid;
+    border-style: solid none;
+}
+
+.mobile-top-menu-icon span {
+    font-size: 50px;
+}
+
+.top-menu {
+    display: none;
+}
+
+.mobile-top-menu {
+    display: none;
+    background-color: #3f3f3f;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity ease 1s;
+    z-index: 1;
+}
+
+.mobile-top-menu.open {
+    display: block;
+    opacity: 1;
+}
+
+.mobile-top-menu a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 30px;
+    height: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border-bottom: #fff solid 1px;
+    color: #fff;
+}
+
+.mobile-top-menu a:hover {
+    background-color: #ccc;
+}
+
+.mobile-top-menu a.close-menu-icon {
+    height: 50px;
+    font-size: 16px;
+    border-bottom: #fff solid 2px;
+}
+
+.mobile-top-menu .close-menu-icon span {
+    margin-right: 10px;
+}
+
+.hero {
+    height: 100vh;
+}
+
+.hero.contact-page {
+    height: 50vh;
+}
+
+.hero-text {
+    text-align: center;
+    width: 100%;
+}
+
+.hero-text a {
+    font-size: 20px;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-picture {
+    background-image: url(http://bcgamejam.com/images/logos/2020/logo_transparent.png);
+    width: 90%;
+    height: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 28px;
+    padding: 0 0 20px 0;
+}
+
+section:nth-child(3n-2) {
+    border-top: #41c19d solid 2px;
+}
+
+section:nth-child(3n-1) {
+    border-top: #fcfa29 solid 2px;
+}
+
+section:nth-child(3n) {
+    border-top: #fe2e36 solid 2px;
+}
+
+.info,
+.recap {
+    background-color: #3f3f3f;
+    min-height: 480px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.info-title,
+.recap-title {
+    font-size: 28px;
+}
+
+.info-pitch {
+    margin-bottom: 0;
+}
+
+.info-date {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.info-location {
+    font-size: 18.5px;
+    margin: 0;
+}
+
+.info-location a {
+    text-decoration: none;
+    color: #41c19d;
+    display: block;
+}
+
+.info-location a:hover {
+    cursor: pointer;
+}
+
+.info-signup a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 28px;
+    display: block;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.info-2017 a,
+.info-soon a {
+    text-decoration: none;
+    color: #41c19d;
+}
+
+.recap p {
+    margin: 5px;
+}
+
+.recap-subtitle {
+    font-size: 28px;
+    list-style: none;
+    padding: 0;
+}
+
+.recap-subtitle-item {
+    padding: 6px;
+}
+
+.recap-subtitle-item a {
+    display: block;
+}
+
+.recap-subtitle-item a:hover {
+    color: #41c19d;
+}
+
+.recap-subtitle-item {
+    border: #fff 2px;
+    border-style: none none solid none;
+}
+
+.recap-subtitle-item:last-child {
+    border: none;
+}
+
+.recap-subtitle-item a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.facebook-event {
+    width: 160px;
+    height: 40px;
+}
+
+.facebook-event a {
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(http://bcgamejam.com/images/logos/FB-512-white.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.faq {
+    min-height: 480px;
+}
+
+.faq-content {
+    flex-grow: 2;
+    width: 100%;
+	padding: 0 20px 20px 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.faq-item {
+    padding-bottom: 25px;
+}
+
+.faq-item-title {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.faq-item-content {
+    text-align: center;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.faq-item-content a {
+    text-decoration: none;
+    color: #41c19d;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.directions {
+    padding: 20px 0 0 0;
+}
+
+.directions .header {
+    margin: 0;
+    border: none;
+}
+
+.directions-map {
+    width: 100%;
+}
+
+.directions-map iframe {
+    max-width: 100vw;
+    pointer-events: none;
+    margin-bottom: -3px
+}
+
+.directions-video {
+    width: 100vw;
+    height: 210px; /* fallback */
+    height: calc((100vw * 9) / 16);
+    margin: 15px 0 5px 0;
+}
+
+.schedule {
+    background-color: #3f3f3f;
+}
+
+.schedule-content {
+    flex-grow: 1;
+    margin-bottom: 40px;
+    padding: 0 20px;
+}
+
+.schedule-list {
+    padding: 0;
+    margin: 0;
+    list-style: disc;
+}
+
+.schedule-item {
+    padding-bottom: 15px;
+}
+
+.agenda {
+    list-style: circle;
+}
+
+.agenda-title {
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.agenda-item {
+    padding: 5px 0;
+}
+
+.bring {
+
+    min-height: 480px;
+	margin-top: -4px;
+	
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.bring-content {
+    flex-grow: 2;
+}
+
+.bring-list {
+    list-style-type: circle;
+    align-items: flex-start;
+    margin: 0;
+    padding-top: 0;
+}
+
+.bring-item {
+    padding: 7px 0;
+}
+
+.bring-extras {
+    padding-top: 7px;
+    list-style-type: circle;
+    margin-bottom: -7px;
+}
+
+.about-us {
+        background-color: #3f3f3f;
+	padding: 20px 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.about-bus {
+    margin: 0 auto;
+    padding: 20px 0 30px 0;
+}
+
+.about-bus img {
+    max-width: 100%;
+}
+
+.about-text {
+    padding-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+.club {
+    width: 100%;
+    flex-direction: row;
+    font-size: 20px;
+    padding: 10% 0;
+}
+
+.club-logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 25%;
+    width: 50%;
+    display: block;
+}
+
+.agda .club-logo {
+    background-image: url(http://bcgamejam.com/images/logos/ubc-gamedev.png);
+    cursor: pointer;
+}
+
+.sfu .club-logo {
+    background-image: url(http://bcgamejam.com/images/logos/sfu.png);
+}
+
+.bcit .club-logo {
+    background-image: url(http://bcgamejam.com/images/logos/bcit-white-bg.png);
+    cursor: pointer;
+}
+
+.club-text {
+    width: 50%;
+    padding-left: 10px;
+}
+
+.agda .club-text {
+    padding-bottom: 16px;
+}
+
+.club-text span {
+    font-size: 12px;
+}
+
+.social-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 0px 20px;
+    width: 100%;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.social-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.partners {
+    background-color: #3f3f3f;
+}
+
+.partners-content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px 40px 20px;
+    width: 100%;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.partner-divider {
+    width: 100%;
+    height: 5px;
+    background-color: #41c19d;
+    margin: 30px 0;
+}
+
+.partners-involve {
+  font-size: 20px;
+  display: block;
+  text-align: center;
+}
+
+.partners-involve p {
+    margin: 0;
+}
+
+.partners-involve a {
+    color: #41c19d;
+    text-decoration: none;
+}
+
+.partner-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partner {
+    padding: 25px;
+}
+
+.partner-link {
+    display: block;
+    text-align: center;
+}
+
+.partner-logo {
+    width: 100%;
+    -webkit-filter: drop-shadow(0px 0px 3px #222222);
+    filter: drop-shadow(0px 0px 3px #222222);
+}
+
+.partner-block.gold .partner-logo {
+    width: 100%;
+}
+
+.partner-block.silver .partner-logo {
+    width: 100%;
+}
+
+.partner-block.bronze .partner-logo {
+    width: 80%;
+}
+ 
+.partner-block.special .partner-logo {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 769px) {
+    .partner-block.special.secondrow {
+        padding-top: 40px;
+    }
+
+    body {
+        background-image: url(http://bcgamejam.com/images/backgrounds/background-desktop.jpg);
+        background-size: cover;
+    }
+
+    .mobile-top-menu,
+    .mobile-top-menu-icon {
+        display: none;
+    }
+
+    .top-menu {
+        text-align: end;
+        background-color: #3f3f3f;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        border-bottom: #666 solid 1px;
+        z-index: 1;
+    }
+
+    .top-menu a {
+        text-decoration: none;
+        margin: 0;
+        cursor: pointer;
+        padding: 10px;
+        display: block;
+        color: #fff;
+    }
+
+    .top-menu a:hover {
+        background-color: #ccc;
+    }
+
+    .top-menu-right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .top-menu .home img {
+        height: 16px;
+    }
+
+    .info,
+    .faq,
+    .recap {
+		min-height: 75vh;
+    }
+
+
+    .schedule {
+        min-height: 30vh;
+    }
+
+    .bring {
+        min-height: 60vh;
+    }
+
+    .hero-picture {
+        max-height: 400px;
+        width: 100%;
+        min-height: 40vh;
+        margin-top: 30px;
+    }
+
+    .bring-item {
+        padding: 10px 0;
+    }
+
+    .bring-extras {
+        padding-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .info p,
+    .recap p {
+        margin: 0;
+    }
+
+    .info-pitch {
+        font-size: 25px;
+        margin: 22px 0;
+    }
+
+    .info-title,
+    .recap-title {
+        font-size: 50px;
+        padding: 8px;
+    }
+
+    .info-date {
+        padding-bottom: 8px;
+        font-size: 25px;
+    }
+
+    .info-location {
+        padding-bottom: 22px;
+        font-size: 23px;
+    }
+
+    .info-signup:hover {
+        background-image: url(http://bcgamejam.com/images/assets/attention.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 92px;
+        width: 372px;
+    }
+
+    .info-signup a {
+        font-size: 35px;
+    }
+
+    .info-signup a:hover {
+        font-size: 32px;
+    }
+
+    .recap-subtitle {
+        font-size: 35px;
+    }
+
+    .faq-item-content {
+        padding: 0 30px;
+    }
+
+    .directions-content {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .directions-video {
+        height: 450px;
+        width: 800px;
+        margin: 20px 0 60px 0;
+    }
+
+    .about-us {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+
+    .about-text {
+        font-size: 20px;
+    }
+
+    .club {
+        width: 32%;
+        flex-direction: column;
+        padding: 15px 5px;
+        height: 100%;
+    }
+
+    .club-logo {
+        width: auto;
+        max-width: 250px;
+    }
+
+    .club-text {
+        width: 100%;
+        padding: 15px 0;
+        position: relative;
+        text-align: center;
+    }
+
+    .club-text span {
+        font-size: 20px;
+        position: absolute;
+        top: -10px;
+    }
+
+    .partners-content {
+        padding: 20px 20px 60px 20px;
+    }
+
+    .partner-block {
+        width: 50%;
+    }
+
+    .partner-block.special.firstrow {
+        width: 50%;
+    }
+
+
+    .partner-block.special {
+        width: 33%;
+    }
+
+    .partner-block.silver {
+        width: 65%;
+    }
+
+    .partner-block:nth-child(odd) {
+        padding: 10px 25px 10px 10px;
+    }
+
+    .partner-block:nth-child(even) {
+        padding: 10px 10px 10px 25px;
+    }
+
+    .partner {
+        padding: 0;
+    }
+
+    .partner:nth-child(2) {
+        padding: 30px;
+    }
+
+    .partner-link:hover {
+        cursor: pointer;
+    }
+
+    .social-buttons {
+        padding: 20px 20px 0px 20px;
+    }
+
+    .social-block {
+        width: 25%;
+    }
+
+    .social-block:nth-child(odd) {
+        padding: 10px 25px 10px 10px;
+    }
+
+
+    .social-block:nth-child(even) {
+        padding: 10px 10px 10px 25px;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .social:nth-child(2)  {
+        padding: 30px;
+    }
+}
+
+/* sponsorship start */
+
+.contact {
+    min-height: 70vh;
+    padding: 20px;
+}
+
+h3.subtitle a {
+    color: #41c19d;
+}
+
+h3.subtitle a,
+.club-email a,
+.club-website a {
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.contact .agda {
+    border-top: #fcfa29 solid 2px;
+}
+
+.contact .agda .club-email a,
+.contact .agda .club-website a {
+    color: #fcfa29;
+}
+
+.contact .bcit {
+    border-top: #41c19d solid 2px;
+}
+
+.contact .bcit .club-email a,
+.contact .bcit .club-website a {
+    color: #41c19d;
+}
+
+.contact .sfu {
+    border-top: #fe2e36 solid 2px;
+}
+
+.contact .sfu .club-email a {
+    color: #fe2e36;
+}
+
+.contact .club {
+    flex-wrap: wrap;
+}
+
+.club-email,
+.club-website {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.club-website a {
+    border-bottom: white solid 1px;
+    padding: 5px;
+}
+
+@media screen and (min-width: 769px) {
+    .contact.text-align {
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .contact .club {
+        border: none;
+    }
+}
+
+/* sponsorship end */
+
+/* volunteer start */
+
+.volunteer {
+    padding: 20px;
+}
+
+.volunteer-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volunteer-signup .info-signup {
+    margin: 0;
+}
+
+/* volunteer end */
+
+#social-icons .right {
+    padding-left: 50px;
+}
+
+#social-icons {
+    padding-top: 50px;
+}
+
+.social-buttons a img {
+    box-shadow: 0px 2px 1px 0px rgba(35,35,35,1);
+    border-radius: 100px;
+    transition: 0.3s;
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+}
+
+.social-buttons a:hover img {
+    filter: brightness(100%); 
+    -webkit-filter: brightness(100%); 
+}
+
+.social-buttons a:active img {
+    box-shadow: 0px 0px 1px 0px rgba(35,35,35,1);
+    transform: translate(0px, 2px);
+    -webkit-transform: translate(0px, 2px); 
+}
+
+.social-buttons a {
+    text-decoration: none;
+}
+
+
+
+/* button div */
+#buttons {
+  text-align: center;
+}
+
+/* start da css for da buttons */
+.btn {
+  padding: 15px 50px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+      transition: 0.3s;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px #CE3323;
+}
+
+.blue {
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+  background-color: #6FC6FF;
+}
+
+.green {
+  background-color: #41c19d;
+  box-shadow: 0px 5px 0px 0px #369e81;
+}
+
+.green:hover {
+  background-color: #4bdeb4;
+}
+.btn.green:active {
+  box-shadow: 0px 1px 0px 0px #369e81;
+}
+
+.red {
+  background-color: #b8000d;
+  box-shadow: 0px 5px 0px 0px #89000a;
+}
+
+.red:hover {
+  background-color: #CE3323;
+}
+
+.purple {
+  background-color: #9b59b6;
+  box-shadow: 0px 5px 0px 0px #82409D;
+}
+
+.purple:hover {
+  background-color: #B573D0;
+}
+
+.orange {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.orange:hover {
+  background-color: #FF983C;
+}
+
+.yellow {
+  background-color: #f1c40f;
+  box-shadow: 0px 5px 0px 0px #D8AB00;
+}
+
+.yellow:hover {
+  background-color: #FFDE29;
+}
+
+#partners, #partners .header {
+    //color: rgba(0,0,0,1);
+    //text-shadow: none;
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+        //padding: 25px;
+        -ms-transform: scale(0.75);
+        -webkit-transform: scale(0.75);
+        transform: scale(0.75);
+    }
+
+    .hero-picture {
+        height: 45vh;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    body {
+        background-size: 100% 100vh;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    .partner-block.platinum .partner-logo {
+        width: auto;
+    }
+
+    body .countdown-container {
+        margin: 70px;
+        margin-top: -70px;
+    }
+}
+
+.countdown-container {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+body .timeTo figcaption {
+    color: #fff;
+}
