@@ -135,7 +135,7 @@ h3 {
     margin-bottom: 2em;
 }
 
-#main-description {
+.main-description {
     margin: 1em 0em;
     max-width: 30em
 }
