@@ -284,6 +284,9 @@
         background-color: #D03857;
         margin-top: 3em;
     }
+    html {
+        padding: 5%;
+    }
 }
 
 .company-logo-image {
