@@ -295,6 +295,18 @@
         border: 3px solid #FEFEFE;
         max-width: 100%;
     }
+    .sponsor-header {
+        background-color: #F75056;
+        text-align: center;
+        width: 20em;
+        margin: auto;
+        margin-bottom: 1em;
+        padding: 0.5em 0em;
+    }
+    #sponsor-community {
+        background-color: #D03857;
+        margin-top: 3em;
+    }
 }
 
 .company-logo-image {
