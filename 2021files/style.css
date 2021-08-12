@@ -308,3 +308,14 @@
 .social-media-logo {
     margin: 2em 0em;
 }
+
+.star-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800%;
+    background: url("img/Stars.png") repeat;
+    background-repeat: repeat-y;
+    pointer-events: none;
+}
