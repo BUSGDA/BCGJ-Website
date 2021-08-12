@@ -291,3 +291,8 @@
         text-align: center;
     }
 }
+
+.company-logo-image {
+    max-width: 10em;
+    height: auto;
+}
