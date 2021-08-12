@@ -151,12 +151,6 @@
     .centered {
         text-align: center;
     }
-    #social-media-container {
-        margin: 0em 0em;
-    }
-    .social-media-logo {
-        margin: 2em 0em;
-    }
     #cloud-purple {
         position: relative;
         top: -150px;
@@ -305,4 +299,12 @@
     margin-bottom: 1em;
     margin-top: 3em;
     padding: 1em 0em;
+}
+
+#social-media-container {
+    margin: 0em 0em;
+}
+
+.social-media-logo {
+    margin: 2em 0em;
 }
