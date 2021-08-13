@@ -4,6 +4,7 @@ body {
     color: #FEFEFE;
     font-size: 1em;
     font-family: Roboto, Tahoma, Arial, Sans-Serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -290,4 +291,22 @@ a:hover {
     background: url("img/Stars.png") repeat;
     background-repeat: repeat-y;
     pointer-events: none;
+}
+
+@media (max-width:629px) {
+    #platform1 {
+        display: none;
+    }
+    #platform2 {
+        display: none;
+    }
+}
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+    #platform1 {
+        display: none;
+    }
+    #platform2 {
+        display: none;
+    }
 }
