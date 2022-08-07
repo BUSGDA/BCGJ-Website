@@ -310,3 +310,8 @@ a:hover {
         display: none;
     }
 }
+
+.navbar-brand img {
+    height: 67px;
+    width: 67px;
+}
